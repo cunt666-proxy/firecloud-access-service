@@ -1,6 +1,6 @@
 # 🔥 FireCloud: Access Service
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/proxy-cunt666/firecloud-access-service)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cunt666-proxy/firecloud-access-service)
 
 ## Overview
 
