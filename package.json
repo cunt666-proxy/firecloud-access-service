@@ -1,0 +1,16 @@
+{
+  "name": "access-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --port 3011 --test-scheduled"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "firecloud-router": "git+https://gitlab.com/cunt666/firecloud-router.git"
+  }
+}

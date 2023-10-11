@@ -1,0 +1,21 @@
+name = "access-service"
+main = "index.js"
+compatibility_date = "2023-08-21"
+usage_model = "bundled"
+node_compat = true
+kv_namespaces = [
+  { binding = "logs", id = "" },
+  { binding = "secrets", id = "" }
+]
+
+[vars]
+  name = "Access Service"
+  registration_enabled = true
+  database = { key = "", id = "", name = "", service = "" }
+  app_secret = ""
+
+[triggers]
+  crons = ["0 0 * * *", "0 15 1 * *"]
+
+[env.dev.triggers]
+  crons = ["0 0 * * *", "0 15 1 * *"]
